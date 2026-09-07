@@ -1,0 +1,25 @@
+{
+  "name": "rc-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot built on @whiskeysockets/baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+        "@angstvorfrauen/baileys": "*",
+        "libphonenumber-js": "*",
+        "moment-timezone": "*",
+        "node-cache": "*",
+        "boxen": "*",
+        "crypto": "*",
+        "uuid": "*",
+        "pino": "*",
+        "path": "*",
+        "fs": "*",
+        "os": "*"
+  }
+}
